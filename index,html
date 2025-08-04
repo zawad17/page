@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GitHub Style Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f6f8fa;
+    }
+    .navbar {
+      background-color: #24292e;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .navbar .logo {
+      font-size: 22px;
+      font-weight: bold;
+    }
+    .navbar input {
+      padding: 6px 10px;
+      border-radius: 6px;
+      border: none;
+      width: 200px;
+    }
+    .container {
+      display: flex;
+    }
+    .sidebar {
+      width: 220px;
+      background-color: #fff;
+      border-right: 1px solid #e1e4e8;
+      padding: 20px;
+      height: 100vh;
+    }
+    .sidebar h3 {
+      margin-bottom: 15px;
+      color: #0366d6;
+    }
+    .sidebar ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .sidebar ul li {
+      margin: 10px 0;
+      color: #24292e;
+      cursor: pointer;
+    }
+    .content {
+      flex: 1;
+      padding: 30px;
+    }
+    .repo-card {
+      background-color: #fff;
+      border: 1px solid #d1d5da;
+      padding: 20px;
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+    .repo-card h2 {
+      margin: 0 0 10px;
+      color: #0366d6;
+    }
+    .repo-card p {
+      margin: 0;
+      color: #586069;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #586069;
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">GitHub Clone</div>
+    <input type="text" placeholder="Search or jump to…" />
+  </div>
+
+  <div class="container">
+    <div class="sidebar">
+      <h3>Menu</h3>
+      <ul>
+        <li>Repositories</li>
+        <li>Stars</li>
+        <li>Followers</li>
+        <li>Following</li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <div class="repo-card">
+        <h2>my-portfolio</h2>
+        <p>A personal portfolio website using HTML, CSS.</p>
+      </div>
+      <div class="repo-card">
+        <h2>weather-app</h2>
+        <p>Simple weather app using JavaScript and API.</p>
+      </div>
+      <div class="repo-card">
+        <h2>todo-list</h2>
+        <p>A classic to-do app built with pure HTML, CSS, JS.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 YourName | Powered by GitHub Pages
+  </div>
+</body>
+</html>
